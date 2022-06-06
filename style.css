@@ -49,7 +49,42 @@ button {
 
 .main-content {
 
+}
 
+.init-info {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.largest-title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+  width: 400px;
+}
+
+.image {
+  background-color: #E5E7EB;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  opacity: 0.5;
 }
 
 .more-details {
